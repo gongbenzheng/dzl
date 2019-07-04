@@ -1,0 +1,29 @@
+0. Can you come up out 3 sceneraies which use AI methods?
+Ans:人脸识别、智能客服、谷歌翻译、自动驾驶、智能音箱
+
+1. How do we use Github; Why do we use Jupyter and Pycharm;
+Ans: GitHub是软件项目的托管平台，可以把程序提交上去和当下来别人的项目。python工程级项目用pycharm,展示用jupyter,使用便利。
+
+2. What's the Probability Model?
+Ans: 概率模型。概率模型分为条件概率模型和随机概率模型等。当因素是确定的，就可以建立条件概率模型，(AIB)=P(AB)/P(B)。如果随机因素对研究对象的影响必须考虑，就可以建立随机概率模型。
+
+3. Can you came up with some sceneraies at which we could use Probability Model?
+Ans: 语言模型，故障诊断，系统可靠性分析，航空交通管理，车辆类型分类
+
+4. Why do we use probability and what's the difficult points for programming based on parsing and pattern match?
+Ans: 用概率模型正确率更高。基于语法树是根据名称、动词、形容词等或定义的规则组成的树状结构随机生成组合的句子；基于模式匹配是先判断，输出判断为true的句子。
+
+5. What's the Language Model;
+Ans:语言模型就是用来计算一个句子的概率的模型，即P(W1,W2,...Wk)。利用语言模型，可以确定哪个词序列的可能性更大，或者给定若干个词，可以预测下一个最可能出现的词语。
+
+6. Can you came up with some sceneraies at which we could use Language Model?
+Ans: 搜狗输入法、语音识别、机器翻译
+
+7. What's the 1-gram language model;
+Ans:一元模型，根据前一个item来预测下一个item。这些item可以是音素（语音识别应用）、字符（输入法应用）、词（分词应用）或碱基对（基因信息）。
+
+8. What's the disadvantages and advantages of 1-gram language model;
+Ans: 优点：一元模型可以避免最长匹配方式导致的歧义问题。缺点：中文中主体后置后缀的效果基本优于前缀，一元模型存在偏差。
+
+9. What't the 2-gram models;
+Ans:二元语法模型又叫一阶马尔科夫链。二元模型中前面事件的发生或后面事件的发生对事件的发生有影响，近似为上一个事件发生的条件下事件发生的概率。
