@@ -1,0 +1,11 @@
+Why do we use Derivative / Gredient to fit a target function??
+Ans:梯度下降函数用于拟合目标函数速度快，定方向。
+
+In the words 'Gredient Descent', what's the Gredient and what's the Descent??
+Ans:梯度是一个曲面沿着给定方向的倾斜程度。下降是沿着负梯度方向不断的迭代，使待优化的目标函数逐步减小。
+
+What's the advantages of the 3rd gradient descent method compared to the previous methods?
+Ans:方向确定，有监督的学习
+
+Using the simple words to describe: What's the machine leanring.?
+Ans: fit。拟合。
