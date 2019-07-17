@@ -1,0 +1,20 @@
+Answer following questions:
+Why do we need dynamic programming? What's the difference of dynamic programming and previous talked search problme?
+Ans:动态规划先求解局部最优，再求整体最优，是求多阶段决策过程的最优化问题。避免了重复计算。搜索是采用自顶而下的深度优先和广度优先算法，动态规划是先求局部再整体的求解。
+
+Why do we still need dynamic programming? Why not we train a machine learning to fit a function which could get the right answer based on inputs?
+Ans:
+
+Can you catch up at least 3 problems which could solved by Dynamic Programming?
+Ans: 外卖路线最短距离、铺设管道的最短距离、投资分配的最优化问题
+
+Can you catch up at least 3 problems wich could sloved by Edit Distance?
+Ans:文本相似度、文本纠错、拼写检查、论文查重、基因序列分析、数据清理等。
+
+Please summarize the three main features of Dynamic Programming, and make a concise explain for each feature.
+Ans:阶段、状态、决策。阶段：将所给问题的过程，按时间或空间特征分解成若干相互联系的阶段，以便按次序去求每阶段的解。状态：各阶段开始时的客观条件叫做状态。
+决策：当各段的状态取定以后，就可以做出不同的决定，从而确定下一阶段的状态，这种决定称为决策。
+
+What's the disadvantages of Dynamic Programming? (You may need search by yourself in Internet)
+Ans:1. 没有统一的标准模型;
+2. 数值方法求解时存在维数灾。
